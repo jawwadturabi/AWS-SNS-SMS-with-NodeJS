@@ -2,9 +2,9 @@ var AWS = require('aws-sdk');
 
 
 AWS.config.update({
-    accessKeyId: "<your AWS_SECRET_KEY_ID>",
-    secretAccessKey: "<your AWS_SECRET_ACCESS_KEY>",
-    region: "<your AWS_REGION>"
+    accessKeyId: "<AWS_SECRET_KEY_ID>",
+    secretAccessKey: "<AWS_SECRET_ACCESS_KEY>",
+    region: "<AWS_REGION>"
 })
 var params = {
     Message: "Hello from AWS SNS ",
