@@ -1,5 +1,5 @@
 var AWS = require('aws-sdk');
-require('dotenv');
+
 
 AWS.config.update({
     accessKeyId: "<your AWS_SECRET_KEY_ID>",
