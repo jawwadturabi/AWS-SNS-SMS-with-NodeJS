@@ -7,7 +7,7 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sean Bradley",
+  "author": "Muhammad Jawwad Turabi",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.480.0",

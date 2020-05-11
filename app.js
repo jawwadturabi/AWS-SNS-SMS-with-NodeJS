@@ -2,13 +2,13 @@ var AWS = require('aws-sdk');
 require('dotenv');
 
 AWS.config.update({
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    region: process.env.AWS_REGION
+    accessKeyId: "<your AWS_SECRET_KEY_ID>",
+    secretAccessKey: "<your AWS_SECRET_ACCESS_KEY>",
+    region: "<your AWS_REGION>"
 })
 var params = {
     Message: "Hello from AWS SNS ",
-    PhoneNumber: '+' + "<your phone number>",
+    PhoneNumber: '+' + "<phone_number>",
     MessageAttributes: {
         'AWS.SNS.SMS.SenderID': {
             'DataType': 'String',

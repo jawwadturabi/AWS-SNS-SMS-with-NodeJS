@@ -26,7 +26,7 @@ Create `.env` file  and enter your correct AWS access key, secret and region.
 ## Run This Code
 
 ```
-$ node app.js
+$ npm start
 
 ```
 
